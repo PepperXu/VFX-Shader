@@ -26,12 +26,12 @@ date: 2021-08-24
 - Main UV X Scroll: Scroll the texture over time along the x axis. 沿X轴随时间移动贴图。
 - Main UV Y Scroll: Scroll the texture over time along the y axis. 沿Y轴随时间移动贴图。
 
-![Scroll](/assets/imgs/vfx-shader/scroll-1.webp "Scroll")
+![Scroll](scroll-1.webp "Scroll")
 
 - Use Main Posterize: Enable posterize options. 展开海报化选项。
     - Posterize: Steps of posterization. A higher value means more steps/less posterization. 海报化的阶层数。越高的数值代表越多阶层/更弱的海报化效果
 
-![Posterize](/assets/imgs/vfx-shader/posterize-1.webp "Posterize")
+![Posterize](posterize-1.webp "Posterize")
 
 - Use Mirror: Enable mirror options. 展开镜面化选项。
     - UV Mirror X: Flip texture along the x-axis. 将贴图沿X轴翻转。
@@ -39,7 +39,7 @@ date: 2021-08-24
 
 ### Mask
 
-![Mask](/assets/imgs/vfx-shader/mask.webp "Mask")
+![Mask](mask.webp "Mask")
 
 - Use Mask: Enable alpha mask. 展开蒙版选项。
 - Mask Texture: Mask texture. Red channel is used for masking. 蒙版贴图。红色通道被用作蒙版。
@@ -54,7 +54,7 @@ date: 2021-08-24
 
 ### Distortion
 
-![Distortion](/assets/imgs/vfx-shader/distortion.webp "Distortion")
+![Distortion](distortion.webp "Distortion")
 
 - Use Distortion: Enable UV distortion options. 展开变形选项。
 - Distortion Texture: Distortion noise texture, red and green channel for displacement, alpha channel for dissolve. 变形噪点贴图。
@@ -66,7 +66,7 @@ date: 2021-08-24
     - Apply Displacement to Mask: If alpha mask is enabled, whether or not apply distortion to mask. 当使用蒙版时，是否将UV位移使用在蒙版上。
 
 
-![Dissolve](/assets/imgs/vfx-shader/dissolve.webp "Dissolve")
+![Dissolve](dissolve.webp "Dissolve")
 
 - Use Dissolve: Enable dissolve animation. 展开溶解动画的选项。
     - Dissolve Amount: Control the degree of dissolving. 0 for original texture. 1 for complete dissolve. 溶解的成度。0是原本的材质，1是完全溶解。
@@ -82,7 +82,7 @@ date: 2021-08-24
         - Noise Strength: The intensity of displacement near the border. 边缘的位移大小。
 
 
-![Dissolve along UV](/assets/imgs/vfx-shader/dissolveuv.webp "Dissolve along UV")
+![Dissolve along UV](dissolveuv.webp "Dissolve along UV")
 
 ### Others
 
@@ -93,4 +93,4 @@ date: 2021-08-24
 - Use Bloom: Enable bloom. 开启发光。
     - Brightness: The intensity of the bloom. 发光强度。
 
-![Bloom](/assets/imgs/vfx-shader/bloom.webp "Bloom")
+![Bloom](bloom.webp "Bloom")
