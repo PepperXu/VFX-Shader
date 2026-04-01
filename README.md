@@ -3,7 +3,7 @@ title: "[Shader Practice] General VFX Shader for Unity URP"
 date: 2021-08-24
 ---
 
-![Bloom](/assets/imgs/vfx-shader/bloom.webp "Bloom")
+![Bloom](bloom.webp "Bloom")
 
 ## Link
 
